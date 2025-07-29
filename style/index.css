@@ -37,11 +37,7 @@
     display: flex;
     align-items: center;
     max-width: 1140px;
-    /* margin-right: 97px;
-    margin-left: 203px;
-    margin-top: 168px; */
-    padding: auto
-    ;
+    padding: 167px;
     
 }
 
@@ -66,4 +62,72 @@ span{
 .herobanner{
     
     justify-content: space-between;
+}
+
+/* plant section */
+.plant{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.cardtitle{
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 1140px; */
+    /* padding: auto; */
+}
+
+.bt{
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.des{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr
+    );
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.cbtn{
+    background-color: #E95A08;
+    border: none;
+    padding: 5px;
+    font-size: large;
+    color: aliceblue;
+    
+}
+button:hover{
+    color: #000000;
+}
+
+/* plants lover */
+
+.psec{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 127px;
+}
+
+.ptitle{
+    font-size: 50px;
+}
+
+.menu{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ptext{
+    padding: 40px;
 }
