@@ -72,11 +72,9 @@ span{
 
 
 .cardtitle{
-    /* display: flex; */
+    display: inline-block;
     justify-content: center;
-    /* align-items: center; */
-    /* max-width: 1140px; */
-    /* padding: auto; */
+    text-align: center;
 }
 
 .bt{
@@ -88,6 +86,7 @@ span{
 .des{
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 
 }
 .card-container{
@@ -106,6 +105,8 @@ span{
     color: aliceblue;
     
 }
+
+
 button:hover{
     color: #000000;
 }
@@ -130,4 +131,27 @@ button:hover{
 
 .ptext{
     padding: 40px;
+}
+
+/* join section */
+.js{
+    max-width: 1440px;
+    margin: 0 auto; 
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.jin{
+    display: inline-block;
+    justify-content:center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.js-title{
+     font-size: 50px;
+     color: #5b0e0e;
+     display: ;
 }
